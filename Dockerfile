@@ -15,5 +15,5 @@ RUN export PATH=$PATH:/usr/local/go/bin
 RUN go version
 
 ## create workspace
-RUN mkdir ~/alunir
-WORKDIR ~/alunir
+RUN mkdir /home/root/alunir
+WORKDIR /home/root/alunir
